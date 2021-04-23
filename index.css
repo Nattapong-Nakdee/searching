@@ -1,0 +1,61 @@
+*{
+    box-sizing : border-box;
+}
+
+body{
+    width: 100%;
+    background-color: rgb(79, 78, 85);
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    color: rgb(168, 56, 243);
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
+    width: 100%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+}
+
+.box-search{
+    width: 50%;
+    padding: 7px 20px 7px 40px;
+    margin-bottom: 40px;
+
+    border: 1px solid rgb(116, 116, 116);
+    border-radius: 15px;
+    outline: none;
+
+    font-size: 20px;
+}
+
+.box-search:hover{
+    box-shadow: 2px 0px 15px rgba(255, 255, 255, 0.3);
+}
+
+.flex-search{
+    width: 1020px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.pic{
+    position: absolute;
+    width: 20px;
+    top: 9px;
+    left: 26%;
+}
+
+.gallery{
+    width: 100%;
+}
+
+@media screen and (max-width : 1000px){
+    .flex-search{
+        width: 100%;
+    }
+}
